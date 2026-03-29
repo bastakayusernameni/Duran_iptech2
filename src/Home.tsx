@@ -1,10 +1,13 @@
-import React from 'react'
+
 
 export default function Home() {
     return (
-        <>
-        <h1>Home</h1>
-        <h2>Welcome to Home</h2>
-        </>
+        <section className="hero">
+          <div className="hero-content">
+            <h1>Welcome to Our Site</h1>
+            <h2>Discover amazing experiences</h2>
+            <button className="cta-button">Get Started</button>
+          </div>
+        </section>
     )
 }
